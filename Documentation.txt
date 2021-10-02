@@ -1,1 +1,11 @@
+# Documentation
+
+## RehabTime - Hito 0
+
+- [X] Descargar git.
+- [X] Crear par de claves y agregarla usando la [documentacion oficial](https://docs.github.com/es/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). 
+- [X] Agregar la clave SSH a la cuenta github usando la [documentacion oficial](https://docs.github.com/es/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+- [X] Configuración de nombre @hare89835yde y correo electrónico *har...@hotmail.com*.
+- [X] Edición del perfil con imagen de Yamaha, nombre y universidad.
+- [X] Activado el MFA con SMS y usando MS Authenticator.
 
