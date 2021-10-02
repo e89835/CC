@@ -1,4 +1,4 @@
-Copyright (c) 2021 - e89835.
+Copyright (c) 2021 - haryde.
 
 No person obtaining a copy of this software and associated documentation files (the "Software") is hereby granted permission to process such Software. These restrictions apply to the four essential freedoms, including the limitation of the rights of use, copy, modify, merge, publish, distribute, sublicense and / or sell copies of the Software, as well as permit the persons to whom the Software is provided to do so, subject to the following conditions.
 
