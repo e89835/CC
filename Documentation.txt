@@ -52,3 +52,10 @@
 - [X] Docker hub subido correctamente a la plataforma (haryde/rehabtime:latest).
 - [X] No se usa contenedor público.
 - [X] Aplicación terminada con funcionalidad completa.
+
+
+## RehabTime - Hito 4
+- [X] Integración continua funcionando con Travis. La aplicación está publicada usando Surge.sh, y la configuración Travis incluye las variables de entorno creadas con Surge.sh.
+- [X] Integración continua funcionando con Netlify.
+- [X] Imagen Docker actualizada con CI.
+- [X] Aplicación terminada con funcionalidad completa.
