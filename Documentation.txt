@@ -52,3 +52,20 @@
 - [X] Docker hub subido correctamente a la plataforma (haryde/rehabtime:latest).
 - [X] No se usa contenedor público.
 - [X] Aplicación terminada con funcionalidad completa.
+
+
+## RehabTime - Hito 4
+- [X] Integración continua funcionando con Travis. La aplicación está publicada usando Surge.sh, y la configuración Travis incluye las variables de entorno creadas con Surge.sh.
+- [X] Integración continua funcionando con Netlify.
+- [X] Imagen Docker actualizada con CI.
+- [X] Aplicación terminada con funcionalidad completa.
+
+
+## RehabTime - Hito 5
+- [X] API correcta en la aplicación, comprobado con las llamadas GET, POST, PUT, DELETE usando Postman. 
+- [X] Configuración distribuida: aplicación y datos separados. La aplicación sólo accede a los datos mediante llamadas a la API.
+  - Para comprobar las llamadas a la API, se lanza sólo el servidor de la base de datos.
+  - Si la aplicación no puede conectar con la base de datos, dará error.
+- [X] Historias de usuario ajustadas, pudiendo dar Me gusta, poner comentarios, comunicándose con el contacto y con mensajes de error de web inválidas.
+- [X] Aplicación terminada con funcionalidad completa, con imagen Docker publicada. 
+- [X] Test de prestaciones Lighthouse para Surge.sh y Netlify.
