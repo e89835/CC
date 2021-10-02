@@ -1,0 +1,50 @@
+# RehabTime
+
+version: 1.2
+
+languages:
+  javascript: main
+  react: visual
+
+tests:
+  - .\src\test\App.test.js
+  - .\src\test\Contact.test.js
+  - .\src\test\Create.test.js
+  - .\src\test\Home.test.js
+  - .\src\test\Search.test.js
+
+src:
+  - .\src\Announcer.js
+  - .\src\App.css
+  - .\src\App.js
+  - .\src\BlogDetails.js
+  - .\src\BlogList.js
+  - .\src\Contact.js
+  - .\src\Create.js
+  - .\src\GlobalStyles.js
+  - .\src\Home.js
+  - .\src\Images.js
+  - .\src\NavBar.js
+  - .\src\NotFound.js
+  - .\src\Search.js
+  - .\src\useFetch.js
+
+db:
+  - .\data\db.json
+
+path: ..\CC\Proyecto-CC\rehabtime\
+
+commands:
+  run-server: npm run start
+  run-db: npx json-server --watch data/db.json --port 8000
+  run-test: npm run test
+
+extensions:
+  visualstudio: simple react snippets by Burke Holland
+  react-dom: npm install react-router-dom@5
+  styled-components: npm install styled-components
+  react: npm install --save-dev @testing-library/react
+  jest: npm install --save-dev @testing-library/jest-dom
+
+firstapp:
+  create: npx create-react-app RehabTime
