@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  rehabtime:
+    image: rehabtime
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
+  db-server:
+    image: vimagick/json-server
+    command: -H 0.0.0.0 -p 8000 -w /data/db.json
+    restart: always
+    ports:
+      - 8000:8000
