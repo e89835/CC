@@ -1,0 +1,34 @@
+# Descripción
+
+## RehabTime 
+El proyecto propuesto es una aplicación para rehabilitación y deporte físico. 
+Se considera interesante por los siguientes puntos:
+- Cada vez la vida es más sedentaria.
+- El sobrepeso no ha parado de crecer en las últimas décadas.
+- Una cantidad importante de enfermedades están directamente relacionadas con el sobrepeso y vida sedentaria.
+- El ejercicio físico es bueno a nivel biológico y mental. 
+- La rehabilitación devuelve mobilidad, libertad e independencia.
+- Los ejercicios de rehabilitación reducen el impacto a largo plazo de las lesiones.
+
+
+¿Cuáles son los beneficios biológicos?
+- Mejora la resistencia física.
+- Regula la presión arterial.
+- Incrementa la densidad ósea.
+- Desarrolla la resistencia a la insulina.
+- Mantiene el peso corporal.
+- Amplía el tono y la fuerza muscular.
+- Aumenta la flexibilidad.
+- Disminuye la fatiga.
+
+¿Cuáles son los beneficios mentales?
+- Rebaja el estrés y la tensión.
+- Aumenta la autostima.
+- Crece nuestra imagen.
+- Disminuye el aislamiento social.
+- Combate la depresión.
+- Contribuye a la relajación.
+- Menor grado de ira, agresividad, etc.
+- Incrementa el bienestar general.
+
+RehabTime pretende acceder y publicar a una serie de ejercicios centrados en sitios específicos para mejorar la calidad de vida de las personas.
