@@ -1,1 +1,78 @@
+# Documentation
 
+## RehabTime - Hito 0
+
+- [X] Descargar git.
+- [X] Crear par de claves y agregarla usando la [documentacion oficial](https://docs.github.com/es/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). 
+- [X] Agregar la clave SSH a la cuenta github usando la [documentacion oficial](https://docs.github.com/es/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+- [X] Configuración de nombre @haryde y correo electrónico *har...@gmail.com*.
+- [X] Edición del perfil con imagen de Yamaha, nombre y universidad.
+- [X] Activado el MFA con SMS y usando MS Authenticator.
+
+
+## RehabTime - Hito 1
+- [X] Arquitectura parecida a MVC, siendo la biblioteca [React](https://es.reactjs.org/) la *Vista* de la arquitectura y el lenguaje [JS](https://developer.mozilla.org/es/docs/Web/JavaScript) la lógica. Además, se usarán operaciones [CRUD](https://developer.mozilla.org/es/docs/Glossary/CRUD) contra la base de datos lanzada en un servidor.
+- [X] Elegimos React por su rapidez y popularidad, que hace una copia del original en memoria y compara los cambios para visualizaciones muy rápidas.
+- [X] Número de hitos propuestos 6.
+- [X] Historias de usuario añadidas (4).
+- [X] Clases a implementar:
+  - src/App.js
+  - src/BlogDetails.js
+  - src/BlogCreate.js
+  - src/NotFound.js
+  - src/Search.js
+  - data/db.json.
+
+
+## RehabTime - Hito 2
+- [X] Gestor de tareas y justificación.
+  - Para las pruebas de la aplicación, usaremos React Testing Library y Jest. Usaremos los comandos siguientes para instalarlos, respectivamente:
+    -	`npm install --save-dev @testing-library/react`
+    -	`npm install --save-dev @testing-library/jest-dom`
+  - Podemos confirmar la instalación de los mismos mirando las nuevas dependencias añadidas en en *package.json*.
+- [X] Elección y justificación de biblioteca.
+  - La biblioteca de pruebas de React fue creada por Kent Dodds y cuenta con un amplio apoyo en la comunidad de desarrolladores. Esta librería es un conjunto de utilidades de React DOM y permite probar de manera sencilla los componentes y simular el comportamiento de usuario. Entre sus ventajas está la consulta de elementos dentro de textos, etiquetas, etc., el disparo de cualquier evento y la espera de que aparezca un elemento.
+ - Jest es el marco de trabajo más popular para pruebas con más de 16 millones de descargas a la semana. Fue creado y es mantenido por Facebook. Además, también ha sido adoptado por Airbnb, Uber y otras empresas. Jest viene con funciones de ejecución de pruebas y aserción. Entre sus mayores ventajas está su rapidez, realización de pruebas de métodos instantáneos, paralelización y asíncronos, simulación de funciones, sintaxis estándar y gran compatibilidad.
+- [X] Elección y justificación del marco de pruebas.
+  - Se realizan pruebas en algunos de los ficheros más relevantes relacionados con las US del Hito 1.
+  - Estas pruebas consisten en comprobar que están presentes elementos concretos.
+  - Los ficheros testeados son: 
+    1. App.test.js: En este fichero comprobaremos que están presentes los elementos de la barra de navegación.
+    2. Contact.test.js: En este fichero comprobaremos que están presentes los elementos de contacto.
+    3. Create.test.js: En este fichero comprobaremos que están presentes los elementos de creación de entradas en la aplicación.
+    4. Home.test.js: En este fichero comprobaremos el mensaje de carga inicial de datos desde la base de datos de la aplicación.
+    5. Search.test.js: En este fichero comprobaremos que podemos realizar una búsqueda en la aplicación.
+- [X] Avance de código y US: Código finalizado según las US del hito anterior.
+- [X] Avance del proyecto: Aplicación terminada con funcionalidad completa.
+
+
+## RehabTime - Hito 3
+- [X] Docker es un conjunto de productos PaaS que utiliza la virtualización a nivel de sistema operativo para entregar software en paquetes llamados contenedores. Estos contenedores están aislados entre sí, agrupando su propio software, librerías y configuración; aunque pueden comunicarse entre sí a través de canales definidos. Tiene niveles gratuitos y de pago. El principal motivo por el que elijo Docker es por su eficiencia y aceptación, además del encapsulamiento y la cantidad de imágenes disponibles.
+- [X] Dockerfile correcto, con dependencias adaptadas al proyecto. Comprobada ejecución contenerizada.
+- [X] Docker hub subido correctamente a la plataforma (haryde/rehabtime:latest).
+- [X] No se usa contenedor público.
+- [X] Aplicación terminada con funcionalidad completa.
+
+
+## RehabTime - Hito 4
+- [X] Integración continua funcionando con Travis. La aplicación está publicada usando Surge.sh, y la configuración Travis incluye las variables de entorno creadas con Surge.sh.
+- [X] Integración continua funcionando con Netlify.
+- [X] Imagen Docker actualizada con CI.
+- [X] Aplicación terminada con funcionalidad completa.
+
+
+## RehabTime - Hito 5
+- [X] API correcta en la aplicación, comprobado con las llamadas GET, POST, PUT, DELETE usando Postman. 
+- [X] Configuración distribuida: aplicación y datos separados. La aplicación sólo accede a los datos mediante llamadas a la API.
+  - Para comprobar las llamadas a la API, se lanza sólo el servidor de la base de datos.
+  - Si la aplicación no puede conectar con la base de datos, dará error.
+- [X] Historias de usuario ajustadas, pudiendo dar Me gusta, poner comentarios, comunicándose con el contacto y con mensajes de error de web inválidas.
+- [X] Aplicación terminada con funcionalidad completa, con imagen Docker publicada. 
+- [X] Test de prestaciones Lighthouse para Surge.sh y Netlify.
+
+
+
+## RehabTime - Hito 6
+- [X] El clúster se compondrá de un contenedor con la app y otro con la base de datos.
+- [X] El contenedor de la app usará la imagen creada para la app RehabTime y el de la base de datos un servidor json.
+- [X] Se proporciona la configuración en el fichero dockercompose, dando error el contenedor json.
